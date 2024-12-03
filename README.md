@@ -12,3 +12,12 @@ tuning hyper-parameters to get the best performance.</h4>
 J'ai créé un modèle RNN en ajoutant une couche SimpleRNN, une couche d'Embedding, et une couche dense pour la classification binaire.
 J'ai implémenté un modèle Bidirectional RNN en encapsulant une couche SimpleRNN avec Bidirectional pour traiter les séquences dans les deux directions.
 J'ai construit des modèles GRU et LSTM en remplaçant la couche récurrente SimpleRNN par GRU ou LSTM, respectivement, pour mieux gérer les séquences longues et améliorer la performance du modèle.</p>
+<h3>part two</h3
+<h2>1. Fine tune the pre-trained model (GPT2) to a customized Dataset (You can generate your own
+DataSet).</h2>
+<p>
+   chargement d'un modèle GPT-2 pré-entraîné et son tokenizer.
+Il détecte si un GPU est disponible pour exécuter le modèle sur le GPU si possible.
+La fonction choose_from_top permet de choisir un token parmi les plus probables en fonction des probabilités fournies, en appliquant une sélection aléatoire pondérée.
+</p>
+
